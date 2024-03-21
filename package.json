@@ -1,0 +1,26 @@
+{
+  "name": "multimode_calculator",
+  "version": "1.0.6",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "bin": {
+    "multimode_calculator": "app.js"
+  },
+  "keywords": [
+    "calculator",
+    "calculations"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.15"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
